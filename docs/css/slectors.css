@@ -1,3 +1,18 @@
+/* div + div{
+    color: green;
+}
++ 가장근접한 형제 ~ 다음 >하위
+ul li{
+    color: brown;
+    background-color: aqua;
+}
+
+ol > li +li{
+    color: white;
+     background-color: black;
+}
+
+
 h3,
 h4,
 h5{
@@ -6,4 +21,4 @@ h5{
 
 h4{
     background-color: aqua;
-}
+} */
