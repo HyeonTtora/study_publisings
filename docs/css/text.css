@@ -1,0 +1,23 @@
+*{
+    font-family: "Nanum Pen Script", cursive;
+    /* font-family: "HBIOS-SYS", cursive; */
+    /* font-family: "S-CoreDream-3Light",  "woff"; */
+    border: 1px solid gray
+}
+.text-align{
+	text-align: center;
+    /* width: 50%; */
+    
+}
+.text-decoration{
+    text-decoration: none;
+}
+
+/* 
+@font-face {
+    font-family: 'MonoplexKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+} */
+
