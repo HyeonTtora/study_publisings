@@ -1,6 +1,6 @@
 *{
-    /* border: 1px dotted gray; */
-    background-color:#d8da3d;
+    border: 1px dotted gray;
+    /* background-color:#d8da3d; */
     color: purple;
 }
 
@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 10px;
     /* border-left-width: 15px; */
     /* justify-content: spacess-around; */
 }
@@ -37,33 +36,34 @@
 }
 /* <div style="">4</div> 사라짐 (권한에따라 표현할때 */
 
+.contain {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    background-color: #d8da3d;
+}
 
 
 .text-decoration{
     text-decoration: none;
 }
+
+
 ul{
-    /* display: flex; */
     list-style-type: none;
     padding: 0px;
-    margin-top: 15px;
-    justify-content: center;
-    display: inline-block;
-    
-        
 }
 
 li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black;
- 
+    background-color: white;
+    border-style: solid;
+    border-width: 0px 20px 0px 0px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+    width: 120px;
 }
 
-a{
-background-color: white;
-}
 
 /* ul.navbar li {
     background: white;
