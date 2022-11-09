@@ -1,0 +1,68 @@
+div{
+    display: inline;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.NoticeTittle{
+    width:400px;
+    font: size 15px;
+}
+
+.cocents{
+    width:400px;
+    height:300px;
+    font: size 15px;
+}
+
+.contentbox{
+   margin-left: 28px;
+   margin-bottom: 2px;
+}
+
+.fileTittle{
+    margin-right: 2px;
+
+ }
+
+fieldset{
+    width: 810px;
+}
+
+.EmphasisFont{
+    color: white;
+}
+
+button{
+    margin-left: 230px;
+    margin-top: 5px;
+}
+
+th{
+    background-color: rgb(250, 143, 104);
+}
+td{
+    background-color: rgb(255, 250, 215);
+}
+
+table{
+    font-size: 0.85rem;
+    width: 830px;
+}
+
+
+.Legend{ width: 400px;
+}
+
+
+.Announcement{
+    width: 450px;
+}
+
+.WriterDate{
+    width: 100px;
+}
+.TableTitle{
+ height: 40px;
+}

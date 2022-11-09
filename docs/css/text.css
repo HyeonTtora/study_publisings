@@ -1,9 +1,9 @@
-*{
-    font-family: "Nanum Pen Script", cursive;
+/* *{
+    font-family: "Nanum Pen Script", cursive; */
     /* font-family: "HBIOS-SYS", cursive; */
     /* font-family: "S-CoreDream-3Light",  "woff"; */
-    border: 1px solid gray
-}
+    /* border: 1px solid gray
+} */
 .text-align{
 	text-align: center;
     /* width: 50%; */
@@ -21,3 +21,13 @@
     font-style: normal;
 } */
 
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+* {
+	font-family: 'Humanbumsuk';
+}
