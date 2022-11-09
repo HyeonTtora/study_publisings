@@ -10,85 +10,115 @@
 </head>
 
 <body>
-    <div>포트폴리오 문제</div>
+    <h3>포트폴리오 문제</h3>
     <hr>
-    <fieldset>
-        <Legend>공지사항 작성하기</Legend>
-        <div>제목</div><input type="text" name="title" id="title_id" placeholder="제목을 입력하시오."
-            class="contentbox NoticeTittle">
-        <br>
-        <div>내용</div><input type="text" name="title" id="title_id" placeholder="내용을 입력하시오." class="contentbox cocents">
-        <br>
-        <div class="fileTittle">첨부파일</div><input type="file" name="uploadFile" id="upload_id" value="선택된 파일 없음" >
-        <br><button type="submit">작성하기</button>
-    </fieldset>
+    <form action="insert.no" method="post">
+        <fieldset>
+            <Legend>공지사항 작성하기</Legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="tittle_id">제목</label>
+                    </th>
+                    <th>
+                        <input type="text" name="title" id="title_id" placeholder="제목을 입력하시오."
+                            class="contentbox NoticeTittle" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="content_id">내용</label>
+                    </th>
+                    <th>
+                        <textarea placeholder="내용을 입력하시오." name="content" id="content_id" class="contentbox"
+                            required></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="upload_id">첨부파일</label>
+                    </th>
+                    <th>
+                        <input type="file" name="uploadFile" id="upload_id" value="선택된 파일 없음">
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="작성하기">
+                    </th>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
     <br>
     <hr>
     <br>
-    <table border="1">
-        <tr>
-            <th class="EmphasisFont">
-                번호
-            </th>
-            <th colspan="2" class="EmphasisFont TableTitle">
-                제목
-            </th>
-            <th class="EmphasisFont WriterDate">
-                작성자
-            </th>
-            <th class="EmphasisFont WriterDate">
-                작성일
-            </th>
-            <th class="EmphasisFont">
-                조회수
-            </th>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td class="Announcement">공지사항 제목 9</td>
-            <td><input type="button" value="바로가기"></td>
-            <td>user01</td>
-            <td>2021-03-29</td>
-            <td>34</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>공지사항 제목 6</td>
-            <td><input type="button" value="바로가기"></td>
-            <td>answ445</td>
-            <td>2021-03-12</td>
-            <td>67</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>공지사항 제목 3</td>
-            <td><input type="button" value="바로가기"></td>
-            <td>testg12</td>
-            <td>2021-03-01</td>
-            <td>98</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>공지사항 제목 2</td>
-            <td><input type="button" value="바로가기"></td>
-            <td>palwe3</td>
-            <td>2021-01-02</td>
-            <td>85</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>공지사항 제목 1</td>
-            <td><input type="button" value="바로가기"></td>
-            <td>xml23</td>
-            <td>2021-12-24</td>
-            <td>124</td>
-        </tr>
-        <tr>
-            <th colspan="4" class="EmphasisFont">전체공지사항 갯수</th>
-            <th colspan="2" class="EmphasisFont">5개</th>
-        </tr>
-        
-    </table>
+    <form action="">
+        <table border="1">
+            <tr>
+                <th class="EmphasisFont">
+                    번호
+                </th>
+                <th colspan="2" class="EmphasisFont">
+                    제목
+                </th>
+                <th class="EmphasisFont WriterDate">
+                    작성자
+                </th>
+                <th class="EmphasisFont WriterDate">
+                    작성일
+                </th>
+                <th class="EmphasisFont">
+                    조회수
+                </th>
+            </tr>
+            <tr class="td_color">
+                <td>9</td>
+                <td class="Announcement"> <label for="notice9_id">공지사항 제목 9</label></td>
+                <td><input type="button" value="바로가기" id="notice9_id"></td>
+                <td>user01</td>
+                <td>2021-03-29</td>
+                <td>34</td>
+            </tr>
+            <tr class="td_color">
+                <td>6</td>
+                <td> <label for="notice6_id">공지사항 제목 6</label></td>
+                <td><input type="button" value="바로가기" id="notice6_id"></td>
+                <td>answ445</td>
+                <td>2021-03-12</td>
+                <td>67</td>
+            </tr>
+            <tr class="td_color">
+                <td>3</td>
+                <td><label for="notice3_id">공지사항 제목 3</label></td>
+                <td><input type="button" value="바로가기" id="notice3_id"></td>
+                <td>testg12</td>
+                <td>2021-03-01</td>
+                <td>98</td>
+            </tr>
+            <tr class="td_color">
+                <td>2</td>
+                <td><label for="notice2_id">공지사항 제목 2</label></td>
+                <td><input type="button" value="바로가기" id="notice2_id"></td>
+                <td>palwe3</td>
+                <td>2021-01-02</td>
+                <td>85</td>
+            </tr>
+            <tr class="td_color">
+                <td>1</td>
+                <td><label for="notice1_id">공지사항 제목 1</label></td>
+                <td><input type="button" value="바로가기" id="notice1_id"></td>
+                <td>xml23</td>
+                <td>2021-12-24</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="EmphasisFont">전체공지사항 갯수</th>
+                <th colspan="2" class="EmphasisFont">5개</th>
+            </tr>
+
+        </table>
+    </form>
     <div>
         <a href="../index.html" target="_self">Index</a>
     </div>

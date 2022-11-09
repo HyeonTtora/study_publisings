@@ -1,24 +1,38 @@
+*{
+      border: 1px dotted gray;
+}
+
+
+/* #tittlealign{
+    text-align: center;
+} */
+
 div{
     display: inline;
-    font-size: 0.85rem;
     font-weight: bold;
     text-align: left;
+    font-size: 0.85rem;
 }
+
+textarea {
+    width: 400px;
+    height: 300px;
+    resize: none;
+    
+  }
+
 
 .NoticeTittle{
-    width:400px;
-    font: size 15px;
+    width: 400px;
+    height: 20px;
 }
 
-.cocents{
-    width:400px;
-    height:300px;
-    font: size 15px;
-}
 
 .contentbox{
    margin-left: 28px;
    margin-bottom: 2px;
+   
+
 }
 
 .fileTittle{
@@ -32,37 +46,35 @@ fieldset{
 
 .EmphasisFont{
     color: white;
+    background-color: rgb(250, 143, 104);
+    height: 40px;
 }
 
-button{
+/* button{
     margin-left: 230px;
     margin-top: 5px;
-}
+} */
 
-th{
-    background-color: rgb(250, 143, 104);
-}
-td{
-    background-color: rgb(255, 250, 215);
-}
 
-table{
-    font-size: 0.85rem;
-    width: 830px;
-}
+/* table{
+  display: flex;
+  align-items: ;
+} */
+
 
 
 .Legend{ width: 400px;
 }
 
+.td_color{
+    background-color: rgb(255, 250, 215);
+}
 
 .Announcement{
     width: 450px;
+    
 }
 
 .WriterDate{
     width: 100px;
-}
-.TableTitle{
- height: 40px;
 }
