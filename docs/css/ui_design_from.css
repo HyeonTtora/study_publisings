@@ -1,17 +1,9 @@
 *{
-      border: 1px dotted gray;
+      /* border: 1px dotted gray; */
+     
 }
-
-
-/* #tittlealign{
-    text-align: center;
-} */
-
-div{
-    display: inline;
-    font-weight: bold;
-    text-align: left;
-    font-size: 0.85rem;
+table{
+    font-size: 0.85em
 }
 
 textarea {
@@ -27,21 +19,9 @@ textarea {
     height: 20px;
 }
 
-
-.contentbox{
-   margin-left: 28px;
-   margin-bottom: 2px;
-   
-
-}
-
-.fileTittle{
-    margin-right: 2px;
-
- }
-
-fieldset{
-    width: 810px;
+.Emphasis{
+    color: white;
+    background-color: rgb(250, 143, 104);
 }
 
 .EmphasisFont{
@@ -50,21 +30,6 @@ fieldset{
     height: 40px;
 }
 
-/* button{
-    margin-left: 230px;
-    margin-top: 5px;
-} */
-
-
-/* table{
-  display: flex;
-  align-items: ;
-} */
-
-
-
-.Legend{ width: 400px;
-}
 
 .td_color{
     background-color: rgb(255, 250, 215);
